@@ -1,5 +1,57 @@
 p{
-    color: red;
+    color: greenyellow;
     font-family: impact;
-    size: 25px;
+    font-size: 45px;
 }
+
+h1{
+    font-size: 45px;
+    font-family: impact;
+}
+
+ul.a {
+    liste-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    width: 100%;
+    
+}
+ul.b {
+    liste-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    margin: 0px;
+
+
+}
+li a{
+    float: right;
+    display: block;
+    padding: 2px;
+    color: black;
+}
+li b{
+    float: left;
+    display: block;
+    padding: 10px;
+    color: black;
+    font-size: 8px;
+}
+
+li a:hover{
+    background-color: lightgrey;
+    color: yellow;
+}
+
+li b:hover{
+    background-color: lightgrey;
+    color: rgb(224, 67, 67);
+}
+
